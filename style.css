@@ -45,9 +45,25 @@ header .headline{
 }
 
 .social i{
-	display:inline-block;
-	margin-left:20px;
-	size:32px;
+	color:black;
+}
+
+@media screen and (max-width:1024px){
+	.social i {
+		color:green;
+	}
+}
+
+@media screen and (max-width: 768px){
+.social i{
+	color:red;
+	}
+}
+
+@media screen and (max-width:425px){
+.social i {
+	color:blue;
+	}
 }
 
 .nav-list{
