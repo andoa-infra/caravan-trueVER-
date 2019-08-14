@@ -43,3 +43,22 @@
 img{
 	width:280px;
 }
+
+@media screen and (max-width:768px){
+	body{
+		width:300px;
+	}
+
+	.step-boxes{
+		width:300px;
+	}
+
+	.s{
+		float:none;
+		width:100%;
+	}
+
+	.s:nth-child(2){
+		margin-left:0;
+	}
+}
