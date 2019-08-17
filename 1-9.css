@@ -5,13 +5,13 @@
 }
 
 .step-boxes{
-	width:960px;
+	width:100%;
 	height:300px;
 	margin:0 auto;
 }
 
 .s{
-	width:300px;
+	width:100%;
 	padding:10px;
 	float:left;
 	border:solid 0.5px;
@@ -50,7 +50,7 @@ img{
 	}
 
 	.step-boxes{
-		width:300px;
+		width:90%;
 	}
 
 	.s{
@@ -60,5 +60,9 @@ img{
 
 	.s:nth-child(2){
 		margin-left:0;
+	}
+
+	.i{
+		width:100%;
 	}
 }
